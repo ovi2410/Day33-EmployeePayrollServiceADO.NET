@@ -2,13 +2,15 @@
 //Console.WriteLine("Hello, World!");
 using System;
 
-namespace EmployeePayRollService_ADO.NET
+namespace EmployeePayRollServiceAdo.net
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("------------Welcome TO Employee PayRoll Services Using ADO.NET");
+            Console.WriteLine("------------Welcome TO Employee PayRoll Services Using ADO.NET----------");
+            EmployeeRepository employeeRepository = new EmployeeRepository();
+            employeeRepository.GetDataFromSql();
 
         }
     }
