@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeePayrollServiceAdo.net
+namespace EmployeePayRollServiceAdo.net
 {
     public class EmployeeDataManager
     {
@@ -22,6 +22,4 @@ namespace EmployeePayrollServiceAdo.net
         public double NetPay { get; set; }
     }
 }
-
-    
 
