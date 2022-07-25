@@ -2,7 +2,7 @@
 //Console.WriteLine("Hello, World!");
 using System;
 
-namespace EmployeePayRollServiceAdo.net
+namespace EmployeePayrollServiceAdo.net
 {
     class Program
     {
